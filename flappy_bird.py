@@ -225,13 +225,12 @@ if __name__ == "__main__":
             else:
                 window.blit(score1,(30,30))
             window.blit(high_score1,(180,30))
-            #This one is the main one
+            #This one is the main one haa
             pygame.display.update()
             clock.tick(FPS)
         if score >= high_score:
             with open("high.txt","w") as f:
                 f.write(str(int(high_score)))
         gameover_()
+        
             
-
-
