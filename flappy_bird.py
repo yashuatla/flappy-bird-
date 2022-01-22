@@ -225,6 +225,7 @@ if __name__ == "__main__":
             else:
                 window.blit(score1,(30,30))
             window.blit(high_score1,(180,30))
+            #This one is the main one
             pygame.display.update()
             clock.tick(FPS)
         if score >= high_score:
